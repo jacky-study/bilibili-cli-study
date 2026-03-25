@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "2.0",
+  "managedBy": {
+    "skill": "repo-study",
+    "createdBySkill": true,
+    "createdAt": "2026-03-26T10:00:00+08:00"
+  },
+  "repo": {
+    "name": "bilibili-cli",
+    "url": "git@github.com:public-clis/bilibili-cli.git",
+    "githubUrl": "https://github.com/public-clis/bilibili-cli",
+    "owner": "public-clis",
+    "branch": "main",
+    "commitSha": "dbe28551930df43b633baa52e9639832aeada967"
+  },
+  "topics": [
+    {
+      "id": "architecture",
+      "name": "整体架构设计",
+      "description": "研究 bilibili-cli 的整体架构设计",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "bilibili-cli 的整体架构是如何设计的？",
+          "askedAt": "2026-03-26T10:00:00+08:00"
+        }
+      ],
+      "artifacts": [],
+      "progress": {
+        "questions": 1,
+        "notes": 0,
+        "guides": 0,
+        "skillTemplates": 0,
+        "runnableSkills": 0
+      },
+      "state": "active"
+    }
+  ]
+}
