@@ -25,10 +25,51 @@
           "askedAt": "2026-03-26T10:00:00+08:00"
         }
       ],
-      "artifacts": [],
+      "artifacts": [
+        {
+          "type": "note",
+          "path": "notes/architecture-overview.md",
+          "title": "研究发现: bilibili-cli 整体架构设计",
+          "createdAt": "2026-03-26T10:15:00+08:00"
+        },
+        {
+          "type": "guide",
+          "path": "notes/architecture-guide.md",
+          "title": "实操指南：从零开始设计一个 Python CLI 工具",
+          "createdAt": "2026-03-26T10:30:00+08:00"
+        }
+      ],
       "progress": {
         "questions": 1,
-        "notes": 0,
+        "notes": 1,
+        "guides": 1,
+        "skillTemplates": 0,
+        "runnableSkills": 0
+      },
+      "state": "active"
+    },
+    {
+      "id": "anti-scrape",
+      "name": "风控解决方案",
+      "description": "研究 bilibili-cli 如何应对 Bilibili 的反爬机制",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "bilibili-cli 是如何解决风控问题的？",
+          "askedAt": "2026-03-26T10:45:00+08:00"
+        }
+      ],
+      "artifacts": [
+        {
+          "type": "note",
+          "path": "notes/anti-scrape-solution.md",
+          "title": "研究发现: bilibili-cli 的风控解决方案",
+          "createdAt": "2026-03-26T10:50:00+08:00"
+        }
+      ],
+      "progress": {
+        "questions": 1,
+        "notes": 1,
         "guides": 0,
         "skillTemplates": 0,
         "runnableSkills": 0
